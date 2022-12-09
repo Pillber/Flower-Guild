@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.flowerguild.init.FlowerGuildModItems;
+import net.mcreator.flowerguild.init.FlowerGuildModFeatures;
+import net.mcreator.flowerguild.init.FlowerGuildModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,6 +49,11 @@ public class FlowerGuildMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		FlowerGuildModBlocks.REGISTRY.register(bus);
+		FlowerGuildModItems.REGISTRY.register(bus);
+
+		FlowerGuildModFeatures.REGISTRY.register(bus);
 
 	}
 

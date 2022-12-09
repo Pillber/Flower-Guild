@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "flower_guild:block/flower_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "flower_guild:block/flower_dimension_portal_ns"
+    }
+  }
+}

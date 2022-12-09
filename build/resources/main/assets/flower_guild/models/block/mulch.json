@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "flower_guild:blocks/mulchblock",
+    "particle": "flower_guild:blocks/mulchblock"
+  },
+  "render_type": "solid"
+}

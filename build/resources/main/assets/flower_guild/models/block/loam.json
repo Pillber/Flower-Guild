@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "flower_guild:blocks/loamblock",
+    "particle": "flower_guild:blocks/loamblock"
+  },
+  "render_type": "solid"
+}
