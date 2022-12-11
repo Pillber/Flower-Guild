@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "mutated_forest"
+      },
+      {
+        "value": "CUSTOM:MulchFields"
       }
     ],
     "worldGenType": "Normal world gen",

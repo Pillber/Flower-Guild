@@ -26,6 +26,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mulch"
+    },
+    {
+      "name": "MulchFields",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch_fields"
+    },
+    {
+      "name": "MulchPlanksRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch_planks_recipe"
     }
   ],
   "variable_elements": [],
@@ -33,6 +49,7 @@
   "language_map": {
     "en_us": {
       "item.flower_guild.flower_dimension": "Flower Dimension Portal Igniter",
+      "biome.flower_guild.mulch_fields": "Mulch Fields",
       "block.flower_guild.loam": "Loam",
       "block.flower_guild.mulch": "Mulch"
     }

@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.flowerguild.init.FlowerGuildModItems;
 import net.mcreator.flowerguild.init.FlowerGuildModFeatures;
 import net.mcreator.flowerguild.init.FlowerGuildModBlocks;
+import net.mcreator.flowerguild.init.FlowerGuildModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,6 +56,7 @@ public class FlowerGuildMod {
 
 		FlowerGuildModFeatures.REGISTRY.register(bus);
 
+		FlowerGuildModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

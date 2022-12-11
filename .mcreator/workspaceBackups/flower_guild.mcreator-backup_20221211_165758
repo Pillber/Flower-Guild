@@ -1,0 +1,62 @@
+{
+  "mod_elements": [
+    {
+      "name": "FlowerDimension",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Loam",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loam"
+    },
+    {
+      "name": "Mulch",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.flower_guild.flower_dimension": "Flower Dimension Portal Igniter",
+      "block.flower_guild.loam": "Loam",
+      "block.flower_guild.mulch": "Mulch"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flower_guild",
+    "modName": "Flower Guild",
+    "version": "1.0.0",
+    "author": "melca, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.flowerguild",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

@@ -1,0 +1,122 @@
+{
+  "mod_elements": [
+    {
+      "name": "FlowerDimension",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Loam",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loam"
+    },
+    {
+      "name": "Mulch",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch"
+    },
+    {
+      "name": "MulchFields",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch_fields"
+    },
+    {
+      "name": "ChlorophyteIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorophyte_ingot"
+    },
+    {
+      "name": "ChlorophyteOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorophyte_ore"
+    },
+    {
+      "name": "ChlorophyteBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorophyte_block"
+    },
+    {
+      "name": "ChlorophyteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorophyte_ore_block_recipe"
+    },
+    {
+      "name": "ChlorophyteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorophyte_block_ore_recipe"
+    },
+    {
+      "name": "ChlorophyteOreSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorophyte_ore_smelting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.flower_guild.flower_dimension": "Flower Dimension Portal Igniter",
+      "biome.flower_guild.mulch_fields": "Mulch Fields",
+      "block.flower_guild.loam": "Loam",
+      "item.flower_guild.chlorophyte_ingot": "Chlorophyte",
+      "block.flower_guild.mulch": "Mulch",
+      "block.flower_guild.chlorophyte_ore": "Chlorophyte Ore",
+      "block.flower_guild.chlorophyte_block": "Block of Chlorophyte"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flower_guild",
+    "modName": "Flower Guild",
+    "version": "1.0.0",
+    "author": "melca, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.flowerguild",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
