@@ -22,6 +22,7 @@ import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 
 import java.util.List;
 
@@ -48,6 +49,7 @@ public class MulchFieldsBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("flower_guild:mushrooms_huge_mulch_fields", VegetationFeatures.MUSHROOM_ISLAND_VEGETATION,
 						List.of(CountPlacement.of(2), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+		BiomeDefaultFeatures.addDesertVegetation(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).temperature(0.5f).downfall(0.5f).specialEffects(effects)
 				.mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();

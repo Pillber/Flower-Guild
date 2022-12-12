@@ -18,6 +18,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "loam"
+    },
+    {
+      "name": "Mulch",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch"
+    },
+    {
+      "name": "MulchFields",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch_fields"
+    },
+    {
+      "name": "MulchPlanksRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulch_planks_recipe"
+    },
+    {
+      "name": "ExtremeFlowerForest",
+      "type": "biome",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extreme_flower_forest"
     }
   ],
   "variable_elements": [],
@@ -25,7 +57,10 @@
   "language_map": {
     "en_us": {
       "item.flower_guild.flower_dimension": "Flower Dimension Portal Igniter",
-      "block.flower_guild.loam": "Loam"
+      "biome.flower_guild.extreme_flower_forest": "Extreme Flower Forest",
+      "biome.flower_guild.mulch_fields": "Mulch Fields",
+      "block.flower_guild.loam": "Loam",
+      "block.flower_guild.mulch": "Mulch"
     }
   },
   "foldersRoot": {

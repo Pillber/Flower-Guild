@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2022-12-12 11:51:39 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-12-11 17:07:16 -0600"
@@ -35,9 +41,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2022-12-12 11:51:39 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-12-11 17:07:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2022-12-12 11:51:39 -0600"
     },
     "done": true
   },
@@ -47,6 +65,12 @@
       "minecraft:flower_forest": "2022-12-11 17:07:11 -0600"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2022-12-12 11:51:39 -0600"
+    },
+    "done": true
   },
   "DataVersion": 3120
 }

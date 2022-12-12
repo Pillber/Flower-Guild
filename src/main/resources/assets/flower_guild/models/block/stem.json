@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "flower_guild:blocks/stemblocktopbottom",
+    "up": "flower_guild:blocks/stemblocktopbottom",
+    "north": "flower_guild:blocks/stemblocksides",
+    "east": "flower_guild:blocks/stemblocksides",
+    "south": "flower_guild:blocks/stemblocksides",
+    "west": "flower_guild:blocks/stemblocksides",
+    "particle": "flower_guild:blocks/stemblocktopbottom"
+  },
+  "render_type": "solid"
+}

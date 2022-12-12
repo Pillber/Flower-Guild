@@ -8,6 +8,9 @@
       },
       {
         "value": "CUSTOM:MulchFields"
+      },
+      {
+        "value": "CUSTOM:ExtremeFlowerForest"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -83,7 +83,9 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "DeadBushes"
+    ],
     "spawnEntries": []
   }
 }

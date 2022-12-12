@@ -1,6 +1,9 @@
 {
   "item.flower_guild.flower_dimension": "Flower Dimension Portal Igniter",
+  "biome.flower_guild.extreme_flower_forest": "Extreme Flower Forest",
   "biome.flower_guild.mulch_fields": "Mulch Fields",
   "block.flower_guild.loam": "Loam",
+  "block.flower_guild.stem": "Stem",
+  "block.flower_guild.red_petal": "Red Petal",
   "block.flower_guild.mulch": "Mulch"
 }

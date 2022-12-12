@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "flower_guild:blocks/redpetalblock",
+    "up": "flower_guild:blocks/redpetalblock",
+    "north": "flower_guild:blocks/redpetalblock",
+    "east": "flower_guild:blocks/redpetalblock",
+    "south": "flower_guild:blocks/redpetalblock",
+    "west": "flower_guild:blocks/redpetalblock",
+    "particle": "flower_guild:blocks/redpetalblock"
+  },
+  "render_type": "solid"
+}

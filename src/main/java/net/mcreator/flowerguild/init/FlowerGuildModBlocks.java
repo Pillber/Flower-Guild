@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.flowerguild.block.StemBlock;
+import net.mcreator.flowerguild.block.RedPetalBlock;
 import net.mcreator.flowerguild.block.MulchBlock;
 import net.mcreator.flowerguild.block.LoamBlock;
 import net.mcreator.flowerguild.block.FlowerDimensionPortalBlock;
@@ -21,4 +23,6 @@ public class FlowerGuildModBlocks {
 			() -> new FlowerDimensionPortalBlock());
 	public static final RegistryObject<Block> LOAM = REGISTRY.register("loam", () -> new LoamBlock());
 	public static final RegistryObject<Block> MULCH = REGISTRY.register("mulch", () -> new MulchBlock());
+	public static final RegistryObject<Block> STEM = REGISTRY.register("stem", () -> new StemBlock());
+	public static final RegistryObject<Block> RED_PETAL = REGISTRY.register("red_petal", () -> new RedPetalBlock());
 }
